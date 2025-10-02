@@ -1,7 +1,18 @@
 {
+    // Python の型チェックモードを設定
+    // "off" は型チェックなし、"basic" は基本的な型チェック、"strict" は厳密チェック
     "python.analysis.typeCheckingMode": "basic",
+
+    // コードフォーマットに使うツールを指定
+    // "black" を使うと自動で PEP8 形式に整形される
     "python.formatting.provider": "black",
+
+    // Python の静的解析（Lint）を有効化
     "python.linting.enabled": true,
+
+    // Lint ツールとして pylint を使用
     "python.linting.pylintEnabled": true,
+
+    // ファイル保存時に自動でフォーマットを実行
     "editor.formatOnSave": true
 }

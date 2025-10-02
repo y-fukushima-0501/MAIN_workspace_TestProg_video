@@ -1,6 +1,17 @@
+# プロジェクトで必要なライブラリ一覧
+
+# 数値計算用
 numpy
+
+# 画像・動画処理用
 opencv-python
+
+# 機械学習・データ解析用
 scikit-learn
-matplotlib
 pandas
+
+# グラフ・可視化用
+matplotlib
+
+# テスト用フレームワーク
 pytest
