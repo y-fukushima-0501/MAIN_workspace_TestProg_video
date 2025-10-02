@@ -1,44 +1,44 @@
-# Video Stutter Detector
+# Video Stutter Detector（動画カクつき検出器）
 
-This project is designed to detect stuttering in video playback using Python. It provides a comprehensive set of tools for analyzing video performance and identifying issues related to stuttering.
+このプロジェクトは、Python を使用して動画再生時のカクつきを検出することを目的としています。動画のパフォーマンスを解析し、カクつきに関連する問題を特定するための包括的なツールセットを提供します。
 
-## Project Structure
+## プロジェクト構成
 
-- **.gitignore**: Specifies files and directories that should not be tracked by Git.
-- **.vscode/settings.json**: Contains project settings for Visual Studio Code.
-- **notebooks/02_dpframe_test_ver.0.0.1.ipynb**: A Jupyter notebook for experiments and analysis related to video stutter detection.
-- **src/detector/**: Contains the core functionality for detecting video stuttering.
-  - **__init__.py**: Initializes the detector package.
-  - **main.py**: Entry point for the application, starting the video stutter detection process.
-  - **processor.py**: Defines functions and classes for processing video data.
-  - **analyzer.py**: Contains logic for analyzing video stuttering.
-  - **utils.py**: Provides auxiliary functions and utilities.
-  - **cli.py**: Offers a command-line interface for running the program.
-- **src/tests/**: Contains unit tests for the detector module.
-  - **test_processor.py**: Unit tests for processor.py.
-  - **test_analyzer.py**: Unit tests for analyzer.py.
-- **tests/integration_test.py**: Script for running integration tests.
-- **scripts/run_detection.sh**: Shell script containing commands to execute the video stutter detection process.
-- **requirements.txt**: Lists the Python packages required for the project.
-- **pyproject.toml**: Manages project metadata and dependencies.
-- **setup.cfg**: Contains project settings and options.
+- **.gitignore**: Gitで追跡しないファイルやディレクトリを指定します。
+- **.vscode/settings.json**: Visual Studio Code のプロジェクト設定を含みます。
+- **notebooks/02_dpframe_test_ver.0.0.1.ipynb**: 動画カクつき検出に関する実験や解析用のJupyterノートブック。
+- **src/detector/**: 動画カクつき検出のコア機能を含むディレクトリ。
+  - **__init__.py**: detector パッケージの初期化。
+  - **main.py**: アプリケーションのエントリーポイント。動画カクつき検出プロセスを開始。
+  - **processor.py**: 動画データの処理用関数やクラスを定義。
+  - **analyzer.py**: 動画カクつき解析のロジックを含む。
+  - **utils.py**: 補助関数やユーティリティを提供。
+  - **cli.py**: コマンドラインからプログラムを実行するためのインターフェース。
+- **src/tests/**: detector モジュールの単体テスト。
+  - **test_processor.py**: processor.py の単体テスト。
+  - **test_analyzer.py**: analyzer.py の単体テスト。
+- **tests/integration_test.py**: 統合テストを実行するスクリプト。
+- **scripts/run_detection.sh**: 動画カクつき検出プロセスを実行するシェルスクリプト。
+- **requirements.txt**: プロジェクトで必要なPythonパッケージを列挙。
+- **pyproject.toml**: プロジェクトのメタデータと依存関係を管理。
+- **setup.cfg**: プロジェクト設定とオプションを含む。
 
-## Installation
+## インストール
 
-To install the required packages, run:
+必要なパッケージをインストールするには、以下を実行します：
 
 ```
 pip install -r requirements.txt
 ```
 
-## Usage
+## 使い方
 
-To run the video stutter detection process, use the command line interface provided in `cli.py` or execute the shell script `run_detection.sh`.
+動画カクつき検出プロセスを実行するには、`cli.py` のコマンドラインインターフェースを使用するか、シェルスクリプト `run_detection.sh` を実行します。
 
-## Contributing
+## コントリビューション
 
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+貢献は歓迎します！改善やバグ修正のためのプルリクエストの提出、または issue の作成をお願いします。
 
-## License
+## ライセンス
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+このプロジェクトは MIT ライセンスの下で公開されています。詳細は LICENSE ファイルを参照してください。

@@ -1,16 +1,36 @@
+# ===============================================
+# プロジェクト情報 (Poetry 用)
+# ===============================================
 [tool.poetry]
+# プロジェクト名
 name = "video-stutter-detector"
+# バージョン番号
 version = "0.1.0"
+# プロジェクトの説明
 description = "A software project to detect stuttering in videos."
+# 作者情報（名前とメールアドレス）
 authors = ["Your Name <youremail@example.com>"]
+# ライセンス情報
 license = "MIT"
 
+# ===============================================
+# 依存関係
+# ===============================================
 [tool.poetry.dependencies]
+# Python のバージョン
 python = "^3.8"
+# OpenCV パッケージ（動画処理用）
 opencv-python = "^4.5.3"
+# NumPy（数値計算用）
 numpy = "^1.21.0"
+# SciPy（科学計算・信号処理用）
 scipy = "^1.7.0"
 
+# ===============================================
+# ビルドシステム設定
+# ===============================================
 [build-system]
+# ビルドに必要なパッケージ
 requires = ["poetry-core>=1.0.0"]
+# ビルドバックエンドの指定
 build-backend = "poetry.core.masonry.api"

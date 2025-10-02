@@ -1,37 +1,53 @@
+# ===============================================
+# 動画処理およびカクつき解析モジュール
+# ===============================================
+
 def process_video(video_path):
     """
-    Process the video to detect stuttering.
+    動画を処理してカクつきを検出する関数
 
     Parameters:
-    video_path (str): The path to the video file.
+    video_path (str): 解析対象の動画ファイルのパス
 
     Returns:
-    dict: A dictionary containing stutter detection results.
+    dict: カクつき解析結果を含む辞書
+        {
+            'stutter_detected': bool,   # カクつきが検出されたか
+            'stutter_frames': list,     # カクつきが発生したフレーム番号リスト
+            'total_frames': int         # 総フレーム数
+        }
     """
-    # Placeholder for video processing logic
+    # -----------------------------------------------
+    # 結果を格納する辞書を初期化
+    # -----------------------------------------------
     results = {
         'stutter_detected': False,
         'stutter_frames': [],
         'total_frames': 0
     }
 
-    # Implement video processing and stutter detection logic here
+    # -----------------------------------------------
+    # ここに動画処理とカクつき検出のロジックを実装する
+    # 例: フレームごとに analyze_frame を呼び出して stutter_frames を記録
+    # -----------------------------------------------
 
     return results
 
+
 def analyze_frame(frame):
     """
-    Analyze a single frame for stuttering.
+    単一フレームを解析してカクつきの有無を判定する関数
 
     Parameters:
-    frame: The video frame to analyze.
+    frame: 解析対象の動画フレーム（numpy 配列など）
 
     Returns:
-    bool: True if stuttering is detected, False otherwise.
+    bool: カクつきが検出された場合 True、そうでなければ False
     """
-    # Placeholder for frame analysis logic
+    # -----------------------------------------------
+    # フレーム解析ロジックのプレースホルダー
+    # ここで前後フレームとの差分や閾値判定などを行う
+    # -----------------------------------------------
     stutter_detected = False
-
-    # Implement frame analysis logic here
 
     return stutter_detected
