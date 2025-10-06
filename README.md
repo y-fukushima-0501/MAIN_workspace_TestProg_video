@@ -6,7 +6,7 @@
 
 - **.gitignore**: Gitで追跡しないファイルやディレクトリを指定します。
 - **.vscode/settings.json**: Visual Studio Code のプロジェクト設定を含みます。
-- **notebooks/01_test**: 動画カクつき検出に関する実験や解析用のJupyterノートブック。
+- **notebooks/02_dpframe_test_ver.0.0.1.ipynb**: 動画カクつき検出に関する実験や解析用のJupyterノートブック。
 - **src/detector/**: 動画カクつき検出のコア機能を含むディレクトリ。
   - **__init__.py**: detector パッケージの初期化。
   - **main.py**: アプリケーションのエントリーポイント。動画カクつき検出プロセスを開始。
