@@ -1,3 +1,6 @@
+# ===============================
+# 実行環境（カーネル）はTSTVIDEO_Prog（Python 3.12.11）
+# ===============================
 import cv2
 import threading
 import time
@@ -159,7 +162,7 @@ class CameraCapture:
 # GPU処理スレッド
 # =========================
 class GPUProcessingThread(threading.Thread):
-    def __init__(self, queue, save_folder, hash_threshold=5, debug_diff=True):
+    def __init__(self, queue, save_folder, hash_threshold=5, debug_diff=False):
         super().__init__(daemon=True)
         self.queue = queue
         self.save_folder = save_folder
