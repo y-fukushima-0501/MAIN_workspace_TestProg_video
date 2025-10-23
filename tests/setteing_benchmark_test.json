@@ -1,0 +1,209 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Users/HP_PC/github/MAIN_workspace_TestProg_video/video-stutter-detector/tests/benchmark_test.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "C:/Users/HP_PC/github/MAIN_workspace_TestProg_video/video-stutter-detector/tests/benchmark_icon.ico"
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/cudart64_12.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/nvrtc64_120_0.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/cublas64_12.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/cusparse64_12.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/curand64_10.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/cusolver64_11.dll;."
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "fastrlock"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/HP_PC/anaconda3/envs/TSTVIDEO_Prog/Lib/site-packages"
+  },
+  {
+   "optionDest": "collect_submodules",
+   "value": "cupy"
+  },
+  {
+   "optionDest": "collect_data",
+   "value": "cupy"
+  },
+  {
+   "optionDest": "collect_binaries",
+   "value": "cupy"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA cuTENSOR/v2.3/bin/12/cutensor.dll;."
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "cupy"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "fastrlock.rlock"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy._core"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.libs"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda._softlink"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.api"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.api._runtime"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.api._driver"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.api._runtime_enum"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy_backends.cuda.stream"
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "cupy_backends"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/nvrtc-builtins64_122.dll;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/HP_PC/anaconda3/envs/TSTVIDEO_Prog/Lib/site-packages/cupy/_core/include;include/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/HP_PC/anaconda3/envs/TSTVIDEO_Prog/Lib/site-packages/cupy;cupy/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/HP_PC/anaconda3/envs/TSTVIDEO_Prog/Lib/site-packages/cupy/_core/include/cupy;cupy/"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core.flags"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core._routines_indexing"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core._dtype"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core._scalar"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core._ufuncs"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "cupy.core._routines_sorting"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/HP_PC/anaconda3/envs/TSTVIDEO_Prog/Lib/site-packages/cupy/_core/include/cupy/complex.cuh;."
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
